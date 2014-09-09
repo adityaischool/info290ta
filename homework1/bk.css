@@ -1,9 +1,35 @@
 body {
-    background-image: url('bg.jpg');
+    background-image: url('bg2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 } 
+h1 {
+opacity:0.8;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative; 
+    font-size: 19px;
+    line-height: 40px;
+    padding: 15px 15px 15px 15%;
+    color: #355681;
+        background: #fff url(../images/bartoszkosowski.jpg) no-repeat center left;
 
+    border-radius: 0 10px 0 10px;
+}
+
+h2 {
+    font-weight: normal;
+    position: relative;
+    font-size: 31px;
+    line-height: 40px;
+    background: #355681;
+    background: rgba(53,86,129, 0.8);
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    font-family: 'Muli', sans-serif;
+}
 .newimg {
 border: 1px solid;
      border-radius: 25px;

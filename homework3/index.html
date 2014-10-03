@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-do List</title>
+    
+    <!-- link to css file -->
+    <link rel="stylesheet" type="text/css" href="_css/style.css" />
+
+    <!-- link to javascript files -->
+    <script src="_js/jquery-1.10.2.min.js">$( "target" ).submit(function( event ) {
+alert( "Handler for .submit() called." );
+event.preventDefault();
+});</script>
+    <script src="_js/script.js">
+
+</script>   
+
+</head>
+<body>
+    <div class="success" id="message"><p class="para"></p></div>
+	<div id="container">
+
+		<!-- the to-do list -->
+		<div class="column">
+			<ul class="listmy" id="tlist">
+
+			</ul>
+		</div>
+			<div class="column2"><meter id="meter" value="0.6">60%</meter></div>
+
+		<!-- form to add an item to the list -->
+		<div class="column">
+			<form id="target" class="form1" >
+			    <label>Add an item</label><br/>
+			    <input name="tbox"  id="tbox" type="text" placeholder="New item">
+			    <input type="submit" onSubmit=False id="butt" value="Add Task">
+			</form> 
+		</div>
+
+	</div>
+
+</body>
+</html>

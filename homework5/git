@@ -1,0 +1,69 @@
+aditya@tyrionLannister:~$ ls
+apache               diffDirs          Music                 syncroSVNClient
+backup               diffFiles         oxygen16.0            Templates
+Backup-Codes         Documents         oxygenAuthor16.0      treeEditor
+Backup-Codes.tar.gz  Downloads         oxygenDeveloper16.0   UCB
+berkeleyhackers      Dropbox           OxygenXMLEditor       Videos
+books                examples.desktop  Oxygen XML Editor 16  webprojects
+bootcamp             info206.pdf       Pictures              xmlGeneratorGui
+bower                itag              projects
+DataThursday.pdf     jdk1.8.0_20       Public
+Desktop              largeFileViewer   setups
+aditya@tyrionLannister:~$ cd UCB/
+aditya@tyrionLannister:~/UCB$ cd 290TA/
+aditya@tyrionLannister:~/UCB/290TA$ ls
+homeworks  info290ta  Oxygen.pdf
+aditya@tyrionLannister:~/UCB/290TA$ cd info290ta/
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ ls
+classwork        homework1  homework3  notes      temp.png
+github_cmds.txt  homework2  homework4  README.md
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ cd homework
+bash: cd: homework: No such file or directory
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ cd homework4
+aditya@tyrionLannister:~/UCB/290TA/info290ta/homework4$ cd ..
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git status
+# On branch homework3
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	classwork/
+#	github_cmds.txt
+#	homework1/205-switch
+#	homework1/test.js
+#	homework2/
+#	homework4/
+nothing added to commit but untracked files present (use "git add" to track)
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git checkout -b homework4
+Switched to a new branch 'homework4'
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git add homework4
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git commit -m "homework 4"
+[homework4 682a921] homework 4
+ 5 files changed, 228 insertions(+)
+ create mode 100644 homework4/_css/logo.jpg
+ create mode 100644 homework4/_css/style.css
+ create mode 100644 homework4/_js/jquery-1.10.2.min.js
+ create mode 100644 homework4/_js/script.js
+ create mode 100644 homework4/index.html
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git push origin homework4
+Username for 'https://github.com': adityaischool
+Password for 'https://adityaischool@github.com': 
+To https://github.com/adityaischool/info290ta.git
+ * [new branch]      homework4 -> homework4
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ git status
+# On branch homework4
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   homework4/_js/script.js
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	classwork/
+#	github_cmds.txt
+#	homework1/205-switch
+#	homework1/test.js
+#	homework2/
+no changes added to commit (use "git add" and/or "git commit -a")
+aditya@tyrionLannister:~/UCB/290TA/info290ta$ 

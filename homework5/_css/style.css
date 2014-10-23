@@ -1,0 +1,109 @@
+/* content */
+
+h1{
+color: #FFFFFF;
+border: 2px solid #FF3300;
+font-family: 'PT Sans', sans-serif;
+    width: 300px;
+    border-radius: 25px;
+    text-align: center;
+    font-size:13px;
+
+}
+
+#container {
+	margin: 20px auto;
+	overflow: hidden;
+	width: 1050px;
+}
+
+#map {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 800px;
+}
+body{
+font-family:Arial, Helvetica, sans-serif; 
+font-size:13px;
+background-image: url('logo.jpg');
+}
+.column {
+	float: left;
+	width: 340px;
+	border: 1px solid #fff;
+    padding: 5px 15px;
+    color: blue;
+    border-radius: 0 10px 0 10px;
+    opacity: 0.8;
+}
+.column2 {
+	float: left;
+	width: 140px;
+    padding: 5px 15px;
+    color: blue;
+    border-radius: 0 10px 0 10px;
+    opacity: 0.8;
+}
+
+.listmy {
+	float: left;
+	width: 140px;
+	background-color: #BDE5F8;
+    padding: 5px 15px;
+	color: #4F8A10;
+    border-radius: 0 10px 0 10px;
+    opacity: 0.8;
+}
+
+.info, .success, .warning, .error, .validation {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url('info.png');
+opacity:0.6;
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url('success.png');
+opacity:0.6;
+font-weight: bold;
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url('warning.png');
+}
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('error.png');
+}
+
+.form1 {
+opacity: 0.9;
+background-color: rgb(21,200,199);
+opacity: 0.6
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 0 10px 0 10px;
+    font-family: 'Muli', sans-serif;
+
+}
+.hover {
+opacity: 0.9;
+background-color: rgb(21,170,99);
+
+
+}
+.tg  {opacity:0.9;border-spacing:0;border-color:#aabcfe;border-width:1px;border-style:solid;}
+.tg td{font-family: 'Questrial', sans-serif;font-size:11px;text-align: center;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#669;background-color:#e8edff;}
+.tg th{font-family: 'Questrial', sans-serif;font-size:11px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#aabcfe;color:#039;background-color:#b9c9fe;}
+.tg .tg-vn4c{background-color:#D2E4FC}
